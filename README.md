@@ -1,4 +1,4 @@
-usim800
+usim800-hamilkar - ahoj!
 ==========================
 [![image](https://img.shields.io/badge/build-passing-green.svg)](https://pypi.org/project/usim800/)
 [![image](https://img.shields.io/github/license/Bhagyarsh/usim800.svg)](https://pypi.org/project/usim800/)

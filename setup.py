@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="usim800",
-    version="0.0.6",
-    author="bhagyarsh dhumal",
-    author_email="bhagyarshdhumal@gmail.com",
-    description="usim800 is a Python driver module for SIM800 GSM/GPRS .",
+    name="usim800_hamilkar",
+    version="0.0.2.1",
+    author="hamilkar247",
+    author_email="adonnibal96@gmail.com",
+    description="usim800_hamilkar is a Python driver module for SIM800 GSM/GPRS .",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Bhagyarsh/usim800l",
-    packages=setuptools.find_packages(exclude=("tests",)),
+    url="https://github.com/Hamilkar247/usim800_hamilkar",
+    packages=setuptools.find_packages(include=['usim800_hamilkar',],exclude=("tests",)),
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
     license = "MIT",
     classifiers=[

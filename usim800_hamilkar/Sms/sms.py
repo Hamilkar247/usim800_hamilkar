@@ -16,7 +16,7 @@ class sms(communicate):
         self._send_cmd(cmd)
         SMS = sms
         self._send_cmd(SMS,t=0.5)
-        cmd = "\x1A"
+        cmd = "\x1A"                 #kod asci końca sms- a więc ctrl+z
         self._send_cmd(cmd,t=0.1)
         cmd = "AT +SAPBR=0,1"
         data = self._send_cmd(cmd,return_data=True,t=0.5)
