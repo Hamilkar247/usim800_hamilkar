@@ -65,7 +65,7 @@ class communicate:
             IP = None
         return IP
 
-    def _getdata(self, data_to_decode=[], string_to_decode=None, till=b'\n', count=2, counter=0):
+    def _getdata(self, data_to_decode=[], string_to_decode=None, till=b'\n', count=0, counter=0):
 
         rcv = self._port.read(1)
 
