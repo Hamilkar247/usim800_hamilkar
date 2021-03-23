@@ -60,7 +60,7 @@ class request(communicate):
         self._url = url
         self._IP = self._bearer(self._APN)
 
-        cmd = "AT + HTTPINIT"
+        cmd = "AT + HTTPINIT"            #połączenie z serwerem HTTP
         self._send_cmd(cmd)
         cmd = 'AT + HTTPPARA="CID",1'
         self._send_cmd(cmd)

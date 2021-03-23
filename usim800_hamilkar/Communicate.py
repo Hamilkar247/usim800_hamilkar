@@ -57,7 +57,7 @@ class communicate:
         self._send_cmd(cmd)
         cmd = "AT + SAPBR=1,1"
         self._send_cmd(cmd)
-        cmd = "AT + SAPBR=2,1"
+        cmd = "AT + SAPBR=2,1" #zwraca przydzielone ip
         data = self._send_cmd(cmd,return_data=True)
         try :
            IP = data.decode().split()[4].split(",")[-1].replace('"','')
