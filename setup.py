@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="usim800_hamilkar",
-    version="0.0.2.4",
+    version="0.0.3",
     author="hamilkar247",
     author_email="adonnibal96@gmail.com",
     description="usim800_hamilkar is a Python driver module for SIM800 GSM/GPRS .",

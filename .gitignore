@@ -6,3 +6,4 @@ build/*
 dist/*
 usim800_hamilkar.egg-info/*
 *.pycache
+*.pyc
