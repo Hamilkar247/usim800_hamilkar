@@ -1,7 +1,7 @@
-from usim800.Parser.ATParser import Parser
+from usim800_hamilkar.Parser.ATParser import Parser
 import time
-from usim800.Communicate import communicate
-from usim800.Parser import JsonParser
+from usim800_hamilkar.Communicate import communicate
+from usim800_hamilkar.Parser import JsonParser
 
 
 class info(communicate):

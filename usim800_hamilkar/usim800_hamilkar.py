@@ -1,8 +1,8 @@
 # from ATRequests import requests
-from usim800.Sms import sms
-from usim800.Communicate import  communicate
-from usim800.Request import request
-from usim800.Info import info
+from usim800_hamilkar.Sms import sms
+from usim800_hamilkar.Communicate import  communicate
+from usim800_hamilkar.Request import request
+from usim800_hamilkar.Info import info
 import serial
 
 class sim800(communicate):

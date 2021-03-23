@@ -1,5 +1,5 @@
 
-from usim800.Communicate import communicate
+from usim800_hamilkar.Communicate import communicate
 
 
 class sms(communicate):
