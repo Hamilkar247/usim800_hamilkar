@@ -1,1 +1,1 @@
-from usim800.Info.info import info
+from usim800_hamilkar.Info.info import info
